@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro"
+    tools:showIn="@layout/activity_registro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:layout_marginBottom="-25dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:gravity="center_horizontal"
+            android:text="Registro de usuario" />
+
+        <EditText
+            android:id="@+id/editTextusuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="usuario"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+             />
+
+        <EditText
+            android:id="@+id/editTextcnombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            android:hint="Nombres" />
+
+        <EditText
+            android:id="@+id/editTextcorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            android:hint="Ingrese correo" />
+
+        <EditText
+            android:id="@+id/editTextclave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:hint="Genere Clave" />
+
+        <EditText
+            android:id="@+id/editTextverifclave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"
+            android:hint="Verificar Clave" />
+
+        <Button
+            android:id="@+id/Registrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Registrar" />
+    </LinearLayout>
+</RelativeLayout>
